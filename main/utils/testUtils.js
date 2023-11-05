@@ -49,14 +49,16 @@ const switchToCurrentTab = (async (driver) => {
 //helper for initilizing browserstack caps
 const browserstack = (async () => {
     var browserstackCapabilities = {
-        "os" : "11",
-        "os_version" : "Windows",
+        'bstack:options' : {
+            "os" : "Windows",
+            "osVersion" : "11",
+            "browserVersion" : "latest",
+            "buildName" : "Tests",
+            "local" : "false",
+            "networkLogs" : "true",
+            "seleniumVersion" : "4.12.1"
+            },
         "browserName" : "Chrome",
-        "browser_version" : "latest",
-        "browserstack.local" : "false",
-        "browserstack.debug" : "true",
-        "browserstack.console" : "verbose",
-        "browserstack.networkLogs" : "true"
     }
     return browserstackCapabilities;
 })
