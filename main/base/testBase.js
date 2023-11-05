@@ -25,7 +25,7 @@ const initializing = (async () => {
                     .build();
                 break;
             case "browserstack":
-                driver = await new Builder()
+                driver = new Builder()
                     .usingServer(`https://${process.env.BROWSERSTACK_USERNAME}:${process.env.BROWSERSTACK_ACCESS_KEY}@${process.env.BROWSERSTACK_HUB}`)
                     .withCapabilities(await browserstack())
                     .build();

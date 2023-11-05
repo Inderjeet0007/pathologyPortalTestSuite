@@ -73,5 +73,5 @@ Once done, we can execute the command <code>npm i</code> to install all the depe
 In order to kick-off the test, you would have to execute <code>npm run executeRunner</code>.
 
 ### Note
-I have executed these tests on BrowserStack and I am sharing a public URL of one of my sessions executed on remote Windows 10 machine below (session will expire after 60 days):
-https://automate.browserstack.com/builds/3e755d32bf7b317ad60afd75e794e44495066be8/sessions/39f728cf1993a52bec93a1bb03126492fa26d066?auth_token=32f9a471e9b2a4115cba46a30f09754536744134d33a9f222d754be2e35018dc
+I have executed these tests on BrowserStack and I am sharing a public URL of my buuild executed on remote Windows 10 machine below (build will expire after 60 days):
+https://automate.browserstack.com/dashboard/v2/public-build/K29RSERmSFEzMnFNNlAwZ0VxQUpPZFNjdVRHb0ROZi9TVVc3WlI0bjhnOXhzOWFFMVF4VjdtTGdaV0xVVExvZVBtdEV6SDVCeXNQMHFaTUZCcVdyS3c9PS0tNmpRbTM3QWJFdmhiV2tXdjJVTU9pZz09--e6bd91566ee4ee0ecc345b0cf7b39f36a7413d9d
